@@ -1,0 +1,41 @@
+/* /*Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  /*Jenis Font Avenir Next*/
+  font-family: "Avenir Next";
+}
+
+li {
+  /*Menghilangkan bullet pada list . Contoh * */
+  list-style: none;
+  /*Membuat Posisi Rata Kiri Pada List*/
+  float : left;
+  /*Memberikan padding atas bawah dan kanan kiri*/
+  padding : 33px 20px;
+}
+
+.header {
+  /*Memberikan warna background*/
+  background-color : #26d0c9;
+  /*Memberikan Warna Tulisan*/
+  color : #fff;
+  /*Memberi Tinggi 90px */
+  height : 90px;
+}
+
+.header-logo {
+  /*Memberikan efek logo rata kiri*/
+  float : left;
+  /*Memberikan besar font atau tulisan pada tulisan*/
+  font-size : 36px;
+  /*Memberikan padding atas bawah dan kanan kiri*/
+  padding : 20px 40px;
+}
+/* Ketik code Anda dibawah */

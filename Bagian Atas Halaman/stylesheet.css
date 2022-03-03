@@ -1,0 +1,86 @@
+/* /*Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*Jenis Font Avenir Next*/
+  font-family: "Avenir Next";
+}
+
+li {
+  /*Menghilangkan bullet pada list . Contoh * */
+  list-style: none;
+  /*Membuat Posisi Rata Kiri Pada List*/
+  float : left;
+  /*Memberikan padding atas bawah : 33px dan kanan kiri : 20px*/
+  padding : 33px 20px;
+}
+
+.header {
+  /*Memberikan warna background*/
+  background-color : #26d0c9;
+  /*Memberikan Warna Tulisan*/
+  color : #fff;
+  /*Memberi Tinggi 90px */
+  height : 90px;
+}
+
+.header-logo {
+  /*Memberikan efek logo rata kiri*/
+  float : left;
+  /*Memberikan besar font atau tulisan pada tulisan*/
+  font-size : 36px;
+  /*Memberikan padding atas bawah : 20px dan kanan kiri : 80px*/
+  padding : 20px 40px;
+}
+/* Ketik code Anda dibawah */
+
+/* Memberikan efek padding atas bawah : 100px dan kanan kiri : 80px */
+.main {
+    padding: 100px 80px;
+}
+
+/* Memberikan ukuran huruf : 140px pada tag h1 yang berada
+dalam class copy-container */
+.copy-container h1 {
+    font-size: 140px;
+}
+
+/* Memberikan ukuran huruf : 60px pada tag h2 yang berada
+dalam class copy-container */
+.copy-container h2 {
+    font-size: 60px;
+}
+
+/* Memberikan warna huruf : #ff4a4a pada tag span yang berada
+dalam class copy-container */
+.copy-container span {
+    color: #ff4a4a;
+}
+
+/* Berikan tinggi 500px dan margin atas 100px pada class Contents */
+.contents {
+
+    height: 500px;
+    margin-top: 100px;
+}
+
+/* Float left akan meratakan elemen rata kiri dan
+ batas ke kanan dengan margin-right : 40px */
+.contents-item {
+
+    float: left;
+    margin-right: 40px;
+}
+
+/* Besar font 24px dan batas atas dengan margin-top 30px pada tag p di class contents-item */
+.contents-item p {
+
+    font-size: 24px;
+    margin-top: 30px;
+}
